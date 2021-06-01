@@ -5,11 +5,9 @@
   &__item {
     @extend %font_Prater-Serif_bold;
     @include font-size(40);
-    // todo 縁が消える
     &:hover {
-      //color: $sub-color1;
-      color: transparent;
-      -webkit-text-stroke: $main-color1 2px !important;
+      color: $main-color2;
+      -webkit-text-stroke: $main-color1 2px;
       -webkit-text-fill-color: $main-color2;
     }
   }
@@ -17,6 +15,8 @@
     padding-left: 40px;
   }
   &__link {
-    text-decoration: none;
+    &:visited {
+      -webkit-text-stroke: $main-color1 2px;
+    }
   }
 }
