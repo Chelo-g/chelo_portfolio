@@ -8,3 +8,10 @@
   position: fixed;
   top: 0;
 }
+
+@include mq {
+  .header {
+    height: 50px;
+    //TODO burgerとか追加する
+  }
+}

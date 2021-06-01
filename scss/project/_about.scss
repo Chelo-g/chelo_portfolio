@@ -37,3 +37,30 @@
     align-items: flex-end;
   }
 }
+
+@include mq {
+  .about {
+    &__title {
+      @include font-size(100/1.5);
+    }
+    &__message-block {
+      display: flex;
+      flex-direction: column;
+    }
+    &__left-block {
+      display: flex;
+      flex-direction: column;
+    }
+    &__right-block {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+    }
+    &__img {
+      padding-top: 3vh;
+    }
+    &__img + &__img {
+      display: none;
+    }
+  }
+}

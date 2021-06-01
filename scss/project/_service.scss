@@ -14,3 +14,15 @@
     justify-content: space-between;
   }
 }
+
+@include mq {
+  .service {
+    background-color: $main-color1;
+    &__title {
+      @include font-size(100/1.5);
+    }
+    &__items {
+      flex-direction: column;
+    }
+  }
+}

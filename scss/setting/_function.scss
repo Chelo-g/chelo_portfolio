@@ -15,7 +15,7 @@ $breakpoints: (
   font-size: ($px/16) + rem;
 }
 
-@mixin padding-top($px) {
+/* @mixin padding-top($px) {
   padding-top: ($px/16) + rem;
 }
 @mixin padding-bottom($px) {
@@ -26,7 +26,7 @@ $breakpoints: (
 }
 @mixin padding-right($px) {
   padding-right: ($px/16) + rem;
-}
+} */
 
 @mixin res_fs($min, $max) {
   font-size: clamp(($min/16) + rem, calc(5vw+1rem), ($max/16) + rem);

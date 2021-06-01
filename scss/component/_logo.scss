@@ -6,3 +6,9 @@
     -webkit-text-stroke: 0.1rem $main-color1;
   }
 }
+
+@include mq {
+  .logo {
+    @include font-size(25);
+  }
+}
