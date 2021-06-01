@@ -1,5 +1,5 @@
 $layout-width-inner: 1366px;
-$min-width: 1040px;
+$min-width: 1140px;
 $breakpoints: (
   "sp": "screen and (max-width: #{$min-width})",
   "tab": "screen and (max-width: #{$layout-width-inner - 1px})",

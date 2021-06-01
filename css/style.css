@@ -171,14 +171,18 @@
 }
 
 .about__message {
+  min-width: 19rem;
   font-size: 1.125rem;
   line-height: calc(30 / 18);
 }
 
 .about__img {
-  padding-left: 25px;
   height: 75%;
   width: auto;
+}
+
+.about__img + .about__img {
+  padding-left: 25px;
 }
 
 .about__message-block {
@@ -268,10 +272,10 @@
 }
 
 .service-item-left__message {
-  font-size: 1.125rem;
+  font-size: 0.875rem;
   color: #fffff7;
   line-height: calc(30 / 18);
-  padding-top: 30px;
+  padding-top: 0.7rem;
 }
 
 .service-item-left__title-box {
@@ -323,10 +327,10 @@
 }
 
 .service-item-right__message {
-  font-size: 1.125rem;
+  font-size: 0.875rem;
   color: #fffff7;
   line-height: calc(30 / 18);
-  padding-top: 30px;
+  padding-top: 0.7rem;
   text-align: right;
 }
 
@@ -465,7 +469,7 @@
   font-size: 1.25rem;
 }
 
-.margin-article {
+.margin__article {
   height: 5vh;
 }
 /*# sourceMappingURL=style.css.map */

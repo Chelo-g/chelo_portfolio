@@ -14,10 +14,10 @@
   }
   &__message {
     @extend %font_Ryo-Text-PlusN-M;
-    @include font-size(18);
+    @include font-size(14);
     color: $main-color2;
     line-height: calc(30 / 18);
-    padding-top: 30px;
+    padding-top: 0.7rem;
     text-align: right;
   }
   &__title-box {
