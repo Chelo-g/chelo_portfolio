@@ -1,0 +1,38 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__message {
+    @extend %font_Ryo-Text-PlusN-M;
+    text-align: right;
+  }
+  &__pc {
+    width: 375px;
+    height: 606px;
+    &-img {
+      width: 100%;
+      height: 100%;
+      background: url("../../img/work_portfolio-black.jpg");
+      &:hover {
+        background: url("../../img/work_portfolio_color.jpg");
+        transition: 1s;
+      }
+    }
+  }
+  &__sp {
+    width: 375px;
+    height: 606px;
+    &-img {
+      width: 100%;
+      height: 100%;
+      background: url("../../img/work_responsive-black.jpg");
+      &:hover {
+        background: url("../../img/work_responsive-color.jpg");
+        transition: 1s;
+      }
+    }
+  }
+}

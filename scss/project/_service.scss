@@ -1,0 +1,16 @@
+.service {
+  background-color: $main-color1;
+  &__title {
+    @extend %font_Prater-Serif_bold;
+    @include font-size(100);
+    color: $backgroud-color1;
+  }
+  &__box {
+    margin-left: $left-margin;
+    max-width: $max-width;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+}

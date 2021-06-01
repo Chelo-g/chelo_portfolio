@@ -1,0 +1,10 @@
+.top-view {
+  width: 100%;
+  &__img {
+    width: 100%;
+    padding-top: calc(52.5% - 200px);
+    background: url("../../img/top-panda-img.jpg") no-repeat center;
+    background-size: cover;
+    background-position: bottom;
+  }
+}

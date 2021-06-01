@@ -1,0 +1,28 @@
+.contact {
+  background-color: $main-color1;
+  &__title {
+    @extend %font_Prater-Serif_bold;
+    @include font-size(100);
+    color: $sub-color1;
+  }
+  &__box {
+    margin-left: $left-margin;
+    max-width: $max-width;
+  }
+  &__message {
+    @extend %font_Ryo-Text-PlusN-M;
+    @include font-size(18);
+    color: $main-color2;
+    line-height: calc(30 / 18);
+  }
+  &__notice {
+    @extend %font_Ryo-Text-PlusN-M;
+    @include font-size(18);
+    color: $main-color2;
+    line-height: calc(30 / 18);
+    &::first-letter {
+      @extend %font_Prater-Serif_regular;
+      @include font-size(80);
+    }
+  }
+}
