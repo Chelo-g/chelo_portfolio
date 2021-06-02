@@ -2,6 +2,7 @@
   z-index: 3;
   @extend %font_Prater-Serif_regular;
   color: $main-color2;
+  font-size: 1.2rem;
   background-color: $main-color1;
   padding: 1rem 3rem;
   border: $main-color2 solid 2px;
@@ -14,7 +15,7 @@
     line-height: 1;
     position: absolute;
     top: calc(50% - 0.5rem);
-    right: 1rem;
+    right: 1.2rem;
     content: "\f054";
   }
   &:hover {
