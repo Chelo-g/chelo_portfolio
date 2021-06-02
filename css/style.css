@@ -273,7 +273,7 @@
 .top-view__img {
   width: 100%;
   padding-top: 50vh;
-  background: url("../../img/top_panda.jpg") no-repeat center;
+  background: url("../img/top_panda.jpg") no-repeat center;
   background-size: cover;
   background-position: 70%;
 }
@@ -305,7 +305,7 @@
   .top-view__img {
     width: 100vw;
     padding-top: 66vh;
-    background: url("../../img/top_panda.jpg") no-repeat center;
+    background: url("../img/top_panda.jpg") no-repeat center;
     background-size: cover;
     background-position: 60%;
   }
@@ -789,11 +789,11 @@
 .portfolio__pc-img {
   width: 100%;
   height: 100%;
-  background: url("../../img/work_portfolio-black.jpg");
+  background: url("../img/work_portfolio-black.jpg");
 }
 
 .portfolio__pc-img:hover {
-  background: url("../../img/work_portfolio_color.jpg");
+  background: url("../img/work_portfolio_color.jpg");
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -806,11 +806,11 @@
 .portfolio__sp-img {
   width: 100%;
   height: 100%;
-  background: url("../../img/work_responsive-black.jpg");
+  background: url("../img/work_responsive-black.jpg");
 }
 
 .portfolio__sp-img:hover {
-  background: url("../../img/work_responsive-color.jpg");
+  background: url("../img/work_responsive-color.jpg");
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -846,10 +846,10 @@
     width: 85vw;
   }
   .portfolio__pc-img {
-    background: url("../../img/work_portfolio-black.jpg") no-repeat;
+    background: url("../img/work_portfolio-black.jpg") no-repeat;
   }
   .portfolio__pc-img:hover {
-    background: url("../../img/work_portfolio_color.jpg") no-repeat;
+    background: url("../img/work_portfolio_color.jpg") no-repeat;
     -webkit-transition: 1s;
     transition: 1s;
   }
@@ -859,10 +859,10 @@
   }
   .portfolio__sp-img {
     width: 100%;
-    background: url("../../img/work_responsive-black.jpg") no-repeat;
+    background: url("../img/work_responsive-black.jpg") no-repeat;
   }
   .portfolio__sp-img:hover {
-    background: url("../../img/work_responsive-color.jpg") no-repeat;
+    background: url("../img/work_responsive-color.jpg") no-repeat;
     -webkit-transition: 1s;
     transition: 1s;
   }
