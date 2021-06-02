@@ -43,6 +43,11 @@
     &__title {
       @include font-size(100/1.5);
     }
+    &__message {
+      min-width: 19rem;
+      @include font-size(15);
+      line-height: calc(20 / 18);
+    }
     &__message-block {
       display: flex;
       flex-direction: column;

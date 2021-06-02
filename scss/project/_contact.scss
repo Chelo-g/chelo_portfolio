@@ -26,3 +26,30 @@
     }
   }
 }
+
+@include mq {
+  .contact {
+    background-color: $main-color1;
+    &__title {
+      @include font-size(100/1.5);
+      color: $sub-color1;
+    }
+    &__box {
+      margin-left: $left-margin;
+      max-width: $max-width;
+    }
+    &__message {
+      @include font-size(12);
+      color: $main-color2;
+      line-height: calc(30 / 18);
+    }
+    &__notice {
+      @include font-size(14);
+      color: $main-color2;
+      line-height: calc(30 / 14);
+      &::first-letter {
+        @include font-size(80/1.5);
+      }
+    }
+  }
+}

@@ -10,3 +10,17 @@
     @include font-size(100);
   }
 }
+
+@include mq {
+  .work {
+    &__box {
+      display: flex;
+      flex-direction: column;
+      margin-left: $left-margin;
+      max-width: $max-width;
+    }
+    &__title {
+      @include font-size(100/1.5);
+    }
+  }
+}

@@ -36,3 +36,39 @@
     }
   }
 }
+@include mq {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    &__box {
+      display: flex;
+      flex-direction: column;
+    }
+    &__message {
+      text-align: left;
+      @include font-size(12);
+    }
+    &__pc {
+      width: 85vw;
+      &-img {
+        background: url("../../img/work_portfolio-black.jpg") no-repeat;
+        &:hover {
+          background: url("../../img/work_portfolio_color.jpg") no-repeat;
+          transition: 1s;
+        }
+      }
+    }
+    &__sp {
+      width: 85vw;
+      padding-top: 5vh;
+      &-img {
+        width: 100%;
+        background: url("../../img/work_responsive-black.jpg") no-repeat;
+        &:hover {
+          background: url("../../img/work_responsive-color.jpg") no-repeat;
+          transition: 1s;
+        }
+      }
+    }
+  }
+}
