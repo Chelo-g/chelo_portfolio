@@ -12,6 +12,7 @@
 @include mq {
   .header {
     height: 50px;
-    //TODO burgerとか追加する
+    justify-content: initial;
+    padding-left: $left-margin;
   }
 }

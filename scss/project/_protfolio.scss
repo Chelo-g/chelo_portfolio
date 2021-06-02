@@ -9,6 +9,9 @@
     @extend %font_Ryo-Text-PlusN-M;
     text-align: right;
   }
+  &__template-link {
+    font: bold;
+  }
   &__pc {
     width: 375px;
     height: 606px;
