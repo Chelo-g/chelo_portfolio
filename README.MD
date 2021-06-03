@@ -1,15 +1,11 @@
-# web 開発 ブートキャンプ STEP5
+# Chelo のポートフォリオサイト
 
-### ポートフォリオサイトの作成
+コーディング能力の評価にご利用下さい。
 
-#### html
+### URL
 
-https://chelo-g.github.io/web_boot_camp5/
+https://chelo-g.github.io/chelo_portfolio/
 
-#### temple
+### Design
 
-XD より自作
-
-##### title
-
-Panda Coding
+Adobe XD を用いて自作しております。
