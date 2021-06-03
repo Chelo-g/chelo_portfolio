@@ -9,6 +9,6 @@
 
 @include mq {
   .logo {
-    @include font-size(40);
+    @include font-size(30);
   }
 }
